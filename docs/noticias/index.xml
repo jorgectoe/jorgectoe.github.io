@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noticias on Primera web Laura Garcia</title>
+    <link>http://example.org/noticias/</link>
+    <description>Recent content in Noticias on Primera web Laura Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 28 Sep 2021 12:58:29 +0200</lastBuildDate><atom:link href="http://example.org/noticias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cova</title>
+      <link>http://example.org/noticias/cova/</link>
+      <pubDate>Tue, 28 Sep 2021 12:58:29 +0200</pubDate>
+      
+      <guid>http://example.org/noticias/cova/</guid>
+      <description>Nuevo rescate por parte de Zarpa    Características Especificaciones     Nombre Cova   Sexo Hembra   Fech. nacimiento Enero 2019   Tamaño Mediano   Raza Mestiza      Fue rescatada en agosto de este año junto con su hermana Roda, gracias a la ayuda de un pastor. Roda ya está adoptada. Ahora Cova busca su hogar definitivo.
+Cova es una perra con mucha energía y, ante determinados estímulos, reactiva.</description>
+    </item>
+    
+    <item>
+      <title>Luna</title>
+      <link>http://example.org/noticias/luna/</link>
+      <pubDate>Tue, 28 Sep 2021 01:46:29 +0200</pubDate>
+      
+      <guid>http://example.org/noticias/luna/</guid>
+      <description>Nuevo rescate por parte de Zarpa    Características Especificaciones     Nombre Luna   Sexo Hembra   Fech. nacimiento Mayo 2019   Tamaño Grande   Raza Cruce mastín español      Fue recogida por los empleados de una fábrica ya cerrada, y está en Zarpa desde 2014.
+Del carácter de Luna destaca sobre todo lo cariñosa y sociable que es.</description>
+    </item>
+    
+    <item>
+      <title>Lilo y Stich</title>
+      <link>http://example.org/noticias/liloystich/</link>
+      <pubDate>Tue, 28 Sep 2021 01:24:29 +0200</pubDate>
+      
+      <guid>http://example.org/noticias/liloystich/</guid>
+      <description>Nuevo rescate por parte de Zarpa    Características Especificaciones     Nombre Lilo y Stich   Sexo Hembra y macho   Fech. nacimiento Agosto 2021      Estas minipanteritas son macho y hembra, son muy cariñosos y piden mimos sin parar. ¡Imposible no morir de amor!
+Solo hay una cosa mejor que tener un gato y es tener dos. Ver como comparten todo, como se cuidan entre ellos, como duermen abrazados, como juegan… ¡Sería ideal que estos hermanitos fuesen adoptados juntos!</description>
+    </item>
+    
+  </channel>
+</rss>

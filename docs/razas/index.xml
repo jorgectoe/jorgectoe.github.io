@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Razas on Primera web Laura Garcia</title>
+    <link>http://example.org/razas/</link>
+    <description>Recent content in Razas on Primera web Laura Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 28 Sep 2021 09:48:10 +0200</lastBuildDate><atom:link href="http://example.org/razas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weimaraner</title>
+      <link>http://example.org/razas/weimaraner/</link>
+      <pubDate>Tue, 28 Sep 2021 09:48:10 +0200</pubDate>
+      
+      <guid>http://example.org/razas/weimaraner/</guid>
+      <description>Info. general Especificación     Región de origen Alemania   Otros nombres Weimi    Fantasma gris    Fantasma de plata     Descripción: El braco de Weimar (en alemán, Weimaraner) es un perro de caza especialmente dotado como perro cobrador.
+Su pelaje, corto y espeso, le protege muy bien de la humedad; esto le permite ser un cazador eficaz en terrenos pantanosos.</description>
+    </item>
+    
+    <item>
+      <title>Dachshund</title>
+      <link>http://example.org/razas/dachshund/</link>
+      <pubDate>Mon, 27 Sep 2021 09:48:10 +0200</pubDate>
+      
+      <guid>http://example.org/razas/dachshund/</guid>
+      <description>Info. general Especificación     Región de origen Alemania   Primeros registros 1870   Pelaje largo/corto    café,negro,moteado   Orejas largas     Descripción: El dachshund, también llamado teckel, perro vienesa o perro salchicha, es una raza canina. Su peculiar fisonomía se debe a una mutación genética conocida como bassetismo, que dota a los ejemplares de unas extremidades cortas en relación con el tamaño del cuerpo.</description>
+    </item>
+    
+    <item>
+      <title>Golden Retriever</title>
+      <link>http://example.org/razas/golden-retriever/</link>
+      <pubDate>Mon, 27 Sep 2021 09:48:10 +0200</pubDate>
+      
+      <guid>http://example.org/razas/golden-retriever/</guid>
+      <description>Info. general Especificación     Región de origen Escocia   Primeros registros 1850   Tamaño 51 – 61 cm de altura a la cruz   Peso Machos: 32 – 37 kg    Hembras: 27 – 32 kg     Descripción: El golden retriever o cobrador dorado es una raza de perro que se desarrolló alrededor de 1850 en el Reino Unido, más concretamente en Escocia.</description>
+    </item>
+    
+    <item>
+      <title>Bull Terrier</title>
+      <link>http://example.org/razas/bull-terrier/</link>
+      <pubDate>Mon, 27 Sep 2021 09:43:10 +0200</pubDate>
+      
+      <guid>http://example.org/razas/bull-terrier/</guid>
+      <description>Info. general Especificación     Región de origen Inglaterra   Primeros registros 1875   Tamaño mediano   Peso 28 kg     Descripción: El Bull terrier o bull terrier inglés es una raza canina de la familia de los terrier. Son conocidos por la forma única de su cabeza y sus pequeños ojos en forma triangular. Su temperamento ha sido descrito como amante de la diversión, así como activos y graciosos.</description>
+    </item>
+    
+  </channel>
+</rss>

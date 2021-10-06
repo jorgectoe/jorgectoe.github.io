@@ -1,0 +1,33 @@
+{{ partial "header" . }}
+<br>
+<title>{{ .Title }}</title>
+<h2>Formulario</h2>
+<br>
+<main class="content-box">
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}"
+    method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="full-name">Nombre completo</label>
+      <br>
+      <input type="text" name="name" id="full-name" placeholder="Alfonso Fernandez Martín" required="" >
+      <br>
+      <br>
+      <br>
+      <label for="email-address">Correo electrónico</label>
+      <br>
+      <input type="email" name="_replyto" id="email-address" placeholder="alfonsofm@gmail.com" required="">
+      <br>
+      <br>
+      <br>
+      <label for="message">Cuestión u observación</label>
+      <br>
+      <textarea rows="5" cols="30" name="message" id="message" placeholder="Escriba aquí." required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+    <input type="submit" value="Enviar">
+  </form>
+  <br>
+  <br>
+  <img src="/img/pata.png">
+</main>
+{{ partial "footer" . }}

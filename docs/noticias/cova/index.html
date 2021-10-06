@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es-es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cova</title>
+        <link rel="canonical" href="http://example.org/noticias/cova/">
+        <style>
+
+    html body {
+        font-family: 'Fjalla One', sans-serif;
+        background-color: #e8e1ed;
+    }
+
+    :root {
+        --accent: #6a4a85;
+        --border-width:  0 ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla%20One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/lakeside-light.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="http://example.org/css/main.css">
+
+
+
+
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+
+<script>
+$(document).ready(function(){
+    
+  var input = $('#night-mode-toggle');
+  var container = $('#bigbody');
+  var stat = $('#button-status');
+  
+  container.toggleClass(localStorage.toggled);
+  stat.bootstrapToggle(localStorage.button).change();
+  
+  input.on('click', function() {
+      if (localStorage.toggled != "-nightmode" ) {
+          container.toggleClass("-nightmode", true );
+          localStorage.toggled = "-nightmode";
+          localStorage.button = "on";
+       } else {
+          container.toggleClass("-nightmode", false );
+          localStorage.toggled = "";
+          localStorage.button = "off"
+       }
+  })
+});
+</script>
+ <meta name="generator" content="Hugo 0.88.1" />
+        <link href="" rel="alternate" type="application/rss+xml" title="Primera web Laura Garcia" />
+        <link href="" rel="feed" type="application/rss+xml" title="Primera web Laura Garcia" />
+        
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="http://example.org/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://example.org/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://example.org/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://example.org/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="http://example.org/img/favicon/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="http://example.org/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="http://example.org/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    <meta property="og:title" content="Cova">
+    <meta property="og:type" content="article">
+      
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:image" content="http://example.org/favicon/favicon-32x32.png" >
+      
+    <meta property="description" content="">
+    <meta property="og:description" content="">
+    
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:site" content="">
+    
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body id = "bigbody">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Cova</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/razas/">Razas</a></li>
+                            
+                                <li><a href="/protectoras/">Protectoras</a></li>
+                            
+                                <li><a href="/contacto/">Contacto</a></li>
+                            
+                                <li><a href="/formulario/">Formulario</a></li>
+                            
+                                <li><a href="/noticias/">Noticias</a></li>
+                            
+                                <li><a href="/buscar/">Buscar</a></li>
+                            
+                        </ul>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+      
+    
+
+    <h4><a href="/noticias/cova/">Cova</a></h4>
+    <h5>September 28, 2021 - 2 minutes</h5>
+    <h5></h5>
+
+    
+    
+
+</div>
+
+
+    <br> <div class="text-justify"><h3 id="nuevo-rescate-por-parte-de-zarpa">Nuevo rescate por parte de Zarpa</h3>
+<table>
+<thead>
+<tr>
+<th>Características</th>
+<th>Especificaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Cova</td>
+</tr>
+<tr>
+<td>Sexo</td>
+<td>Hembra</td>
+</tr>
+<tr>
+<td>Fech. nacimiento</td>
+<td>Enero 2019</td>
+</tr>
+<tr>
+<td>Tamaño</td>
+<td>Mediano</td>
+</tr>
+<tr>
+<td>Raza</td>
+<td>Mestiza</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><img src="/img/cova2.jpg" alt="imagen cova"></p>
+<hr>
+<p>Fue rescatada en agosto de este año junto con su hermana Roda, gracias a la ayuda de un pastor. Roda ya está adoptada. Ahora Cova busca su hogar definitivo.</p>
+<p>Cova es una perra con mucha energía y, ante determinados estímulos, reactiva. Necesita un adoptante muy activo. Pero Cova no requiere solo desgaste físico, sino también mental. Es una perra muy lista, que se aburre pronto y eso puede causarle frustración y aumentar su reactividad. Por ello necesita mucha estimulación mental. No es una perra para dar un paseo o ir a correr un rato, y luego a descansar, sino que hay que dedicarle tiempo, sobre todo tiempo de calidad.</p>
+<p>Dentro de las necesidades de cualquier peludo, una vez cubiertas las necesidades básica (alimento, cobijo, higiene…), quedan otras muchos aspectos que cubrir (seguridad, juego, sociabilizar con otros perros…) y no debemos olvidar nunca la estimulación mental. Es necesaria en todos los perros, y especialmente en los que son muy activos, como Cova. Por eso, su humano deberá pasar tiempo con ella, plantearle nuevos retos mentales, nuevas formas de juego, nuevos ejercicios… es una tarea que requiere dedicación, pero con la que se crea un vínculo muy especial y de la que el humano también aprenderá mucho.</p>
+<p>Sin duda, es un gran reto, pero merecerá la pena. Cova se convertirá, gracias a su esfuerzo, en su compañera de vida. Y eso no tiene precio…</p>
+<hr>
+<p>Para doptar pongase en contacto con la página o através de nosotros con el formulario.</p>
+<hr>
+</div>
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+</main>
+
+        <footer id = "bigfooter">
+            <div style = "padding:15px;">
+                <p>Powered by <a href="https://gohugo.io">Hugo</a>. Themed by <a href="https://github.com/nathancday/min_night">min_night</a>.
+                </p>
+                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"
+                title="Creative Commons Attribution 4.0 International license">
+                <i class="fab fa-creative-commons" aria-hidden="true"></i> Attribution 4.0 International license
+                </a>
+            </div>
+        </footer>
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', '');
+        </script>
+       
+    </body>
+
+</html>
+

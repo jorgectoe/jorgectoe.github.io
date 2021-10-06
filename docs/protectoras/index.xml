@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Protectoras on Primera web Laura Garcia</title>
+    <link>http://example.org/protectoras/</link>
+    <description>Recent content in Protectoras on Primera web Laura Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 27 Sep 2021 09:53:46 +0200</lastBuildDate><atom:link href="http://example.org/protectoras/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faada</title>
+      <link>http://example.org/protectoras/faada/</link>
+      <pubDate>Mon, 27 Sep 2021 09:53:46 +0200</pubDate>
+      
+      <guid>http://example.org/protectoras/faada/</guid>
+      <description>Dirección: Rambla Prim, 155-157 Entresuelo 2ª 08020 Barcelona
+Web de Faada
+Descripción: Somos una fundación privada, independiente y sin ánimo de lucro activa desde 2004. En nuestros inicios empezamos con la actividad principal de apadrinar, adoptar y rescatar animales salvajes y de compañía. A raíz de la experiencia adquirida como profesionales del sector, en 2012, decidimos iniciar un proceso de transformación interno. Sabíamos que había llegado el momento de poner nuestro conocimiento y recursos para incidir en las causas de forma más estratégica trabajando desde la acción en el ámbito social, legislativo y educativo.</description>
+    </item>
+    
+    <item>
+      <title>Zarpa</title>
+      <link>http://example.org/protectoras/zarpa/</link>
+      <pubDate>Mon, 27 Sep 2021 09:42:46 +0200</pubDate>
+      
+      <guid>http://example.org/protectoras/zarpa/</guid>
+      <description>Dirección: Calle Colón 6-8 Zaragoza (España), C.P. 50007
+Web de Zarpa
+Descripcion: Los objetivos de la ASOCIACIÓN son los que se recogen en el capítulo I de sus Estatutos y que se resumen en la realización de todo tipo de actividades y acciones legales necesarias para mejorar las condiciones de vida de los animales. La ASOCIACIÓN considera que los problemas de malos tratos, abandonos y crueldades con los animales son una cuestión educacional, por lo que llevará a cabo un programa con todo tipo de campañas educativas e informativas a distintos niveles.</description>
+    </item>
+    
+  </channel>
+</rss>

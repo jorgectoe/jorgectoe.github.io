@@ -1,0 +1,57 @@
+baseURL = 'http://localhost/primera-web'
+languageCode = 'es-es'
+title = 'Primera web Laura Garcia'
+theme = 'min_night'
+
+[menu]
+    [[menu.main]]
+	    identifier = "razas"
+	    name = "Razas"
+	    title = "Razas"
+	    url = "/razas/"
+        weight = 1
+    [[menu.main]]
+	    identifier = "protectoras"
+	    name = "Protectoras"
+	    title = "Protectoras"
+	    url = "/protectoras/"
+        weight = 2
+    [[menu.main]]
+	    identifier = "contacto"
+	    name = "Contacto"
+	    title = "Contacto"
+	    url = "/contacto/"
+        weight = 4
+    [[menu.main]]
+	    identifier = "formulario"
+	    name = "Formulario"
+	    title = "Formulario"
+	    url = "/formulario/"
+        weight = 5
+	[[menu.main]]
+	    identifier = "noticias"
+	    name = "Noticias"
+	    title = "Noticias"
+	    url = "/noticias/"
+        weight = 3
+	[[menu.main]]
+	    identifier = "buscar"
+	    name = "Buscar"
+	    title = "Buscar"
+	    url = "/buscar/"
+        weight = 6
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+
+[params]
+    author = "Laura García"
+    description = "Protectoras españolas y razas de perros"
+    logo = "favicon/favicon-32x32.png"
+    accent = "#6a4a85" # dark colors do best
+    backgroundColor = "#e8e1ed"
+    font = "Fjalla One" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "lakeside-light" # make this match accent
+    highlightLanguages = ["r", "bash", "go"]
+

@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'es-es'
+title = 'Primera web'
+[params]
+    accent = "#006264"
+    backgroundColor = "#f5f5f5"
+
